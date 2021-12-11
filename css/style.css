@@ -1,0 +1,147 @@
+ul li {
+    list-style: none;
+}
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+}
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.bg {
+    width: 1920px;
+    height: 900px;
+    background-image: url(/img/bgc.png);
+}
+.topblock {
+    color: #fff;
+}
+nav {
+    color: #ffffff;
+}
+ul,
+li {
+    display: inline-block;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.navitem1,
+.navitem2,
+.navitem3,
+.navitem4 {
+    position: absolute;
+    top: 83px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 150%;
+    font-size: 14px;
+    text-align: center;
+}
+.navitem1 {
+    width: 57px;
+    height: 21px;
+    left: 520px;
+}
+.navitem2 {
+    width: 68px;
+    height: 21px;
+    left: 805px;
+}
+.navitem3 {
+    width: 82px;
+    height: 21px;
+    left: 1085px;
+}
+.navitem4 {
+    width: 69px;
+    height: 21px;
+    left: 1360px;
+}
+.adress {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
+}
+.tel {
+    position: absolute;
+    width: 107px;
+    height: 20px;
+    left: 1408px;
+    top: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
+}
+.linetop,
+.linebottom,
+.line1,
+.line2,
+.line3 {
+    border: 1px solid #ffffff;
+    position: absolute;
+    height: 0px;
+}
+.linetop {
+    width: 1110px;
+    left: 405px;
+    top: 70px;
+}
+.linebottom {
+    width: 1110px;
+    left: 405px;
+    top: 117px;
+}
+.line1 {
+    width: 45px;
+    left: 675px;
+    top: 93px;
+    transform: rotate(90deg);
+}
+.line2 {
+    width: 45px;
+    height: 0px;
+    left: 960px;
+    top: 93px;
+    transform: rotate(90deg);
+}
+.line3 {
+    width: 45px;
+    left: 1245px;
+    top: 93px;
+    transform: rotate(90deg);
+}
+.karta,
+.degust {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    position: absolute;
+    background: #99862a;
+    height: 35px;
+    top: 700px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+}
+.karta {
+    width: 170px;
+    left: 725px;
+}
+.degust {
+    width: 160px;
+    left: 985px;
+}
