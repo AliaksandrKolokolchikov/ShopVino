@@ -486,3 +486,23 @@ body {
   align-content: center;
   align-items: center;
 }
+.test {
+  width: 250px;
+  height: 250px;
+  background-color: blue;
+  position: absolute;
+  animation: normal moveLeft 5s ease-in-out infinite;
+}
+@keyframes moveLeft {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  100% {
+    top: 100px;
+    left: 500px;
+  }
+}
+@media screen  and (min-width:1200px) and (max-width:2000px) {
+  
+}
